@@ -10,17 +10,18 @@ from aiogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKe
 from aiogram.enums import ChatType
 from aiogram.client.default import DefaultBotProperties
 
-# ====== НАСТРОЙКИ ======
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-ADMIN_ID = int(os.environ.get("ADMIN_ID", "0"))
-GROUP_ID = int(os.environ.get("GROUP_ID", "0"))
+# ====== НАСТРОЙКИ (ВПИШИ СВОИ ДАННЫЕ СЮДА) ======
+BOT_TOKEN = "ТВОЙ_ТОКЕН_ОТ_BOTFATHER"
+ADMIN_ID = 922545502
+GROUP_ID = -1004291975368
 
-# Для автосохранения базы в GitHub (необязательно)
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
+# Токен для автосохранения базы в GitHub (если не нужен, оставь пустым "")
+GITHUB_TOKEN = "ТВОЙ_GITHUB_ТОКЕН_ЕСЛИ_ЕСТЬ"
 GITHUB_REPO = "evgeniyaagzholova-commits/anon_bot"
 
 LOG_CHANNEL_ID = -1004378039855
 DB_BACKUP_CHANNEL_ID = -1004378039855 
+# ================================================
 
 # Ссылки
 LINK_ANKETA = "http://t.me/Just_my_thoughts_anketa_bot"
